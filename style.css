@@ -1,0 +1,153 @@
+h1 {
+    color: #F7EEE7; 
+    font-family: "Sacramento", serif;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    font-size: 5em;
+    text-align: center;
+    line-height: 0.8;
+    margin: 0;
+}
+
+h2 {
+    color: #4A3019;
+    font-family: "Sacramento", serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    color: #4A3019;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    font-family: "Source Sans 3", serif;
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+section {
+    padding: 50px 15%;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border-radius: 10px;
+}
+
+#popisek {
+    margin: 0;
+}
+
+a {
+    color: #282425;
+    font-style: italic;
+}
+
+th {
+    border-bottom: 1px solid #4A3019;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+td {
+    border-bottom: 1px solid #4A3019;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+table {
+    border-spacing: 0;
+    margin-top: 5%;
+}
+
+.casy {
+    text-align: right;
+    padding-left: 50px;
+}
+
+.fotogalerie,
+.kontakt {
+    background-color: #F7EEE7;
+}
+
+.onas,
+.nabidka {
+    background-color: #FDF8F3;
+}
+
+.paticka {
+    background-color: #251911;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    color: #F7EEE7;
+    text-decoration: none;
+    padding: 20px 60px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #251911;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #F7EEE7;
+    color: #251911;
+}
+
+.foto-zakusek {
+    width: 400px;
+    border-radius: 50px 0 50px 50px;
+    float: left;
+    margin: 0 100px 0 0;
+}
+
+.foto-kolektiv {
+    width: 400px;
+    border-radius: 0 50px 50px 50px;
+    margin: 0;
+}
+
+.nabidka li {
+    line-height: 4;
+}
+
+.kontakt-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kontakt-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    background-image: url(Obrazky/cb3.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
